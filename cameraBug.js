@@ -1,0 +1,1 @@
+This error typically occurs when you're using Expo's `Camera` API and you attempt to access the camera's properties or methods before the camera has fully initialized.  The `Camera` component's `isAvailable` prop is not reliable enough to prevent this.
